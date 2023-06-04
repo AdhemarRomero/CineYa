@@ -29,7 +29,7 @@
         app:layout_constraintTop_toBottomOf="@+id/imageView2" />
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txt_nombrecompleto"
+        android:id="@+id/txt_nombrePerfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -48,7 +48,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txt_telefono"
+        android:id="@+id/txt_telefonoPerfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -58,7 +58,7 @@
         app:endIconMode="clear_text"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_nombrecompleto">
+        app:layout_constraintTop_toBottomOf="@+id/txt_nombrePerfil">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -67,7 +67,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txt_correo"
+        android:id="@+id/txt_correoPerfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -76,7 +76,7 @@
         android:hint="@string/correo"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_telefono">
+        app:layout_constraintTop_toBottomOf="@+id/txt_telefonoPerfil">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -85,7 +85,7 @@
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
-        android:id="@+id/txt_contraseña"
+        android:id="@+id/txt_contraseñaPerfil"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginStart="16dp"
@@ -94,7 +94,7 @@
         android:hint="@string/contraseña"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_correo">
+        app:layout_constraintTop_toBottomOf="@+id/txt_correoPerfil">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
@@ -112,7 +112,7 @@
         android:hint="@string/repetircontraseña"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_contraseña">
+        app:layout_constraintTop_toBottomOf="@+id/txt_contraseñaPerfil">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
