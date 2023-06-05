@@ -1,15 +1,29 @@
 <resources>
+
     <string name="app_name">CineYa</string>
-    <string name="correo">Correo:</string>
+    <string name="correo">mail@mail.com.pe</string>
     <string name="contraseña">Contraseña:</string>
+    <string name="contraseñaEncriptada">**********</string>
     <string name="registrarse">Registrarse</string>
     <string name="ingresar">Ingresar</string>
     <string name="iniciarsesion">Iniciar Sesión</string>
-    <string name="nombrecompleto">Nombre Completo:</string>
-    <string name="telefono">Teléfono:</string>
+    <string name="nombrecompleto">Nombre y Apellido</string>
+    <string name="telefono">(+51) 999-999-999</string>
     <string name="repetircontraseña">Repetir Contraseña:</string>
     <string name="volver">Volver</string>
 
-        <!-- TODO: Remove or change this placeholder text -->
+    <string name="nombre">Perfil Usuario</string>
+    <string name="eliminarCuenta">Eliminar Cuenta</string>
+    <string name="modificar">Modificar</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!-- Detalle Película -->
+    <string name="tituloPelicula"></string>
+    <string name="director"></string>
+    <string name="genero"></string>
+    <string name="duracion"></string>
+    <string name="disponible"></string>
+    <string name="description"></string>
 </resources>
