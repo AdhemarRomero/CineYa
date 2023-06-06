@@ -26,4 +26,8 @@
     <string name="duracion"></string>
     <string name="disponible"></string>
     <string name="description"></string>
+
+
+    <!-- Detalle Compra -->
+    <string name="DetalleCOmpra">Detalle de la Compra</string>
 </resources>
