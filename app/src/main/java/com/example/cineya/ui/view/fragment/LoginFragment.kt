@@ -36,6 +36,11 @@ class LoginFragment : Fragment() {
             val action = LoginFragmentDirections.actionLoginFragment2ToRegistrarFragment()
             findNavController().navigate(action)
         }
+        binding.btnIngresar.setOnClickListener{
+            val action2= LoginFragmentDirections.actionLoginFragment2ToCineYaFragment()
+            findNavController().navigate(action2)
+
+        }
     }
     override fun onDestroy() {
         _binding = null
