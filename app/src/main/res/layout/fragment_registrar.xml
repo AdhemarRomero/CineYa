@@ -31,7 +31,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            app:endIconMode="clear_text"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -50,7 +51,9 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            app:endIconMode="clear_text"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -68,7 +71,8 @@
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            app:endIconMode="clear_text"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -82,11 +86,13 @@
         android:hint="@string/contraseniaRegistro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_correoRegistro">
+        app:layout_constraintTop_toBottomOf="@+id/txt_correoRegistro"
+        app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -100,11 +106,13 @@
         android:hint="@string/repetirContraseniaRegistro"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/txt_contraseñaRegistro">
+        app:layout_constraintTop_toBottomOf="@+id/txt_contraseñaRegistro"
+        app:endIconMode="password_toggle">
 
         <com.google.android.material.textfield.TextInputEditText
             android:layout_width="match_parent"
-            android:layout_height="wrap_content" />
+            android:layout_height="wrap_content"
+            android:inputType="textPassword"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
