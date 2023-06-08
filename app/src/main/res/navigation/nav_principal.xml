@@ -20,5 +20,13 @@
         <action
             android:id="@+id/action_loginFragment2_to_registrarFragment"
             app:destination="@id/registrarFragment" />
+        <action
+            android:id="@+id/action_loginFragment2_to_cineYaFragment"
+            app:destination="@id/cineYaFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/cineYaFragment"
+        android:name="com.example.cineya.ui.view.fragment.CineYaFragment"
+        android:label="fragment_cine_ya"
+        tools:layout="@layout/fragment_cine_ya" />
 </navigation>
