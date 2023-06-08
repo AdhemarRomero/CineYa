@@ -1,16 +1,28 @@
 <resources>
-
+    <!-- Strings de Angelo -->
     <string name="app_name">CineYa</string>
+    <string name="correoLogin">Correo:</string>
+    <string name="contraseniaLogin">Contraseña:</string>
+    <string name="iniciarSesion">Iniciar Sesión</string>
+    <string name="nombreRegistro">Nombre Completo:</string>
+    <string name="telefonoRegistro">Telèfono:</string>
+    <string name="correoRegistro">Correo:</string>
+    <string name="contraseniaRegistro">Contraseña:</string>
+    <string name="repetirContraseniaRegistro">Repetir Contraseña:</string>
+    <string name="registrarse">Registrarse</string>
+    <string name="ingresar">Ingresar</string>
+    <string name="volver">Volver</string>
+    <!-- -->
     <string name="correo">mail@mail.com.pe</string>
     <string name="contraseña">Contraseña:</string>
     <string name="contraseñaEncriptada">**********</string>
-    <string name="registrarse">Registrarse</string>
-    <string name="ingresar">Ingresar</string>
-    <string name="iniciarsesion">Iniciar Sesión</string>
+
+
+
     <string name="nombrecompleto">Nombre y Apellido</string>
     <string name="telefono">(+51) 999-999-999</string>
     <string name="repetircontraseña">Repetir Contraseña:</string>
-    <string name="volver">Volver</string>
+
 
     <string name="nombre">Perfil Usuario</string>
     <string name="eliminarCuenta">Eliminar Cuenta</string>
@@ -27,7 +39,7 @@
     <string name="disponible"></string>
     <string name="description"></string>
 
-<<<<<<< HEAD
+
     <!-- CineYa Card -->
     <string name="cine_ya_title">CineYa!</string>
     <string name="cine_ya_desc">Bienvenido a CINEYA!, tu aplicación de confianza para disfrutar de tus películas favoritas</string>
@@ -41,9 +53,9 @@
     <string name="Reservar_Pelicula_Ninios_Precio">S/ s%</string>
     <string name="Reservar_Pelicula_Adultos_Mayores_Precio">S/ s%</string>
     <string name="Reservar_Pelicula_Total_Precio">S/ s%</string>
-=======
+
 
     <!-- Detalle Compra -->
     <string name="DetalleCOmpra">Detalle de la Compra</string>
->>>>>>> fvargas
+
 </resources>
