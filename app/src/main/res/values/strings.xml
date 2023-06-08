@@ -26,4 +26,24 @@
     <string name="duracion"></string>
     <string name="disponible"></string>
     <string name="description"></string>
+
+<<<<<<< HEAD
+    <!-- CineYa Card -->
+    <string name="cine_ya_title">CineYa!</string>
+    <string name="cine_ya_desc">Bienvenido a CINEYA!, tu aplicación de confianza para disfrutar de tus películas favoritas</string>
+    <!-- CineYa Card Item -->
+    <string name="cine_ya_card_title_placeholder">Titulo</string>
+    <string name="cine_ya_card_text_placeholder">"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt labore...</string>
+    <string name="cine_ya_card_btn">Ver más</string>
+
+    <!-- ReservarPelicula -->
+    <string name="Reservar_Pelicula_Adultos_Precio">S/ s%</string>
+    <string name="Reservar_Pelicula_Ninios_Precio">S/ s%</string>
+    <string name="Reservar_Pelicula_Adultos_Mayores_Precio">S/ s%</string>
+    <string name="Reservar_Pelicula_Total_Precio">S/ s%</string>
+=======
+
+    <!-- Detalle Compra -->
+    <string name="DetalleCOmpra">Detalle de la Compra</string>
+>>>>>>> fvargas
 </resources>
