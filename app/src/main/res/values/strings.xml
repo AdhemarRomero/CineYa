@@ -14,6 +14,12 @@
     <string name="volver">Volver</string>
     <string name="bienvenido">Bienvenido</string>
     <string name="menu">Menú</string>
+    <string name="inicio">Inicio</string>
+    <string name="perfil">Perfil</string>
+    <string name="miscompras">Mis Compras</string>
+    <string name="haztesocio">Hazte Socio</string>
+    <string name="siguiente">Siguiente</string>
+
     <!-- -->
     <string name="correo">mail@mail.com.pe</string>
     <string name="contraseña">Contraseña:</string>
@@ -34,12 +40,12 @@
     <string name="hello_blank_fragment">Hello blank fragment</string>
 
     <!-- Detalle Película -->
-    <string name="tituloPelicula"></string>
-    <string name="director"></string>
-    <string name="genero"></string>
-    <string name="duracion"></string>
-    <string name="disponible"></string>
-    <string name="description"></string>
+    <string name="tituloPelicula">Fast And Furious X</string>
+    <string name="director">Jorge Estrada Casemiro</string>
+    <string name="genero">Acciòn-Aventura</string>
+    <string name="duracion">1h 24min</string>
+    <string name="disponible">Regular, 3D, Prime</string>
+    <string name="description">Durante numerosas misiones màs que imposibles, Don Toretto y su familia han sido capaces de ser mas listos, de tener màs valor de ir màs rapido que cualquier enemigo</string>
 
 
     <!-- CineYa Card -->
@@ -59,5 +65,5 @@
 
     <!-- Detalle Compra -->
     <string name="DetalleCOmpra">Detalle de la Compra</string>
-
+    <string name="textosocio">Estas a punto de convertirte en socio, recuerda que al subscribirte podras tener muchas facilidades y recibir notificaciones de las ultima peliculas. Ademas, podras realizar compras para la preventa.</string>
 </resources>

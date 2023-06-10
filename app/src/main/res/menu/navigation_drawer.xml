@@ -5,20 +5,26 @@
         android:title="@string/menu">
         <menu>
             <item
-                android:id="@+id/inbox_item"
+                android:id="@+id/fragment1"
                 android:icon="@drawable/home_icon"
-                android:title="@string/app_name"
+                android:title="@string/inicio"
                 android:checkable="true"/>
             <item
-                android:id="@+id/outbox_item"
-                android:icon="@drawable/home_icon"
-                android:title="@string/app_name"
+                android:id="@+id/fragment2"
+                android:icon="@drawable/profile_icon"
+                android:title="@string/perfil"
                 android:checkable="true"/>
             <item
-                android:id="@+id/favourites_item"
-                android:icon="@drawable/home_icon"
-                android:title="@string/app_name"
+                android:id="@+id/fragment3"
+                android:icon="@drawable/shopping_icon"
+                android:title="@string/miscompras"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/fragment4"
+                android:icon="@drawable/vip_icon"
+                android:title="@string/haztesocio"
                 android:checkable="true"/>
         </menu>
     </item>
+
 </menu>
