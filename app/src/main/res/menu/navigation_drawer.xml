@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/main_item"
+        android:title="@string/menu">
+        <menu>
+            <item
+                android:id="@+id/fragment1"
+                android:icon="@drawable/home_icon"
+                android:title="@string/inicio"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/fragment2"
+                android:icon="@drawable/profile_icon"
+                android:title="@string/perfil"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/fragment3"
+                android:icon="@drawable/shopping_icon"
+                android:title="@string/miscompras"
+                android:checkable="true"/>
+            <item
+                android:id="@+id/fragment4"
+                android:icon="@drawable/vip_icon"
+                android:title="@string/haztesocio"
+                android:checkable="true"/>
+        </menu>
+    </item>
+
+</menu>
