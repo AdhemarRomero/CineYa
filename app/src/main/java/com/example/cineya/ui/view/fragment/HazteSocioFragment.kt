@@ -8,7 +8,7 @@ import android.view.ViewGroup
 import androidx.navigation.fragment.findNavController
 import com.example.cineya.R
 import com.example.cineya.databinding.FragmentDetallePeliculaBinding
-import com.example.cineya.databinding.FragmentMetodoPagoBinding
+import com.example.cineya.databinding.FragmentHazteSocioBinding
 
 // TODO: Rename parameter arguments, choose names that match
 // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -17,11 +17,11 @@ private const val ARG_PARAM2 = "param2"
 
 /**
  * A simple [Fragment] subclass.
- * Use the [metodoPago.newInstance] factory method to
+ * Use the [HazteSocioFragment.newInstance] factory method to
  * create an instance of this fragment.
  */
-class metodoPago : Fragment() {
-    private var _binding: FragmentMetodoPagoBinding?=null
+class HazteSocioFragment : Fragment() {
+    private var _binding: FragmentHazteSocioBinding?=null
     private val binding get() = _binding!!
 
 
@@ -30,19 +30,19 @@ class metodoPago : Fragment() {
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
-        _binding = FragmentMetodoPagoBinding.inflate(inflater, container, false)
+        _binding = FragmentHazteSocioBinding.inflate(inflater, container, false)
         return binding.root
     }
+
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
-        binding.btnComprar.setOnClickListener{
-            val action5 = metodoPagoDirections.actionMetodoPagoToReservarPeliculaFragment()
-            findNavController().navigate(action5)
+        binding.btnSocio.setOnClickListener {
+            val action = HazteSocioFragmentDirections.actionHazteSocioFragmentToPerfilFragment()
+            findNavController().navigate(action)
         }
     }
     override fun onDestroy() {
         _binding = null
         super.onDestroy()
     }
-
 }

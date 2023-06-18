@@ -20,5 +20,64 @@
         <action
             android:id="@+id/action_loginFragment2_to_registrarFragment"
             app:destination="@id/registrarFragment" />
+        <action
+            android:id="@+id/action_loginFragment2_to_cineYaFragment"
+            app:destination="@id/cineYaFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/cineYaFragment"
+        android:name="com.example.cineya.ui.view.fragment.CineYaFragment"
+        android:label="fragment_cine_ya"
+        tools:layout="@layout/fragment_cine_ya" >
+        <action
+            android:id="@+id/action_cineYaFragment_to_detallePelicula"
+            app:destination="@id/detallePelicula" />
+        <action
+            android:id="@+id/action_cineYaFragment_to_hazteSocioFragment3"
+            app:destination="@id/hazteSocioFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detallePelicula"
+        android:name="com.example.cineya.ui.view.fragment.detallePelicula"
+        android:label="fragment_detalle_pelicula"
+        tools:layout="@layout/fragment_detalle_pelicula" >
+        <action
+            android:id="@+id/action_detallePelicula_to_metodoPago"
+            app:destination="@id/metodoPago" />
+    </fragment>
+    <fragment
+        android:id="@+id/metodoPago"
+        android:name="com.example.cineya.ui.view.fragment.metodoPago"
+        android:label="fragment_metodo_pago"
+        tools:layout="@layout/fragment_metodo_pago" >
+        <action
+            android:id="@+id/action_metodoPago_to_reservarPeliculaFragment"
+            app:destination="@id/reservarPeliculaFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/reservarPeliculaFragment"
+        android:name="com.example.cineya.ui.view.fragment.ReservarPeliculaFragment"
+        android:label="fragment_reservar_pelicula"
+        tools:layout="@layout/fragment_reservar_pelicula" >
+        <action
+            android:id="@+id/action_reservarPeliculaFragment_to_detalleCompraFragment"
+            app:destination="@id/detalleCompraFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/detalleCompraFragment"
+        android:name="com.example.cineya.ui.view.fragment.DetalleCompraFragment"
+        android:label="fragment_detalle_compra"
+        tools:layout="@layout/fragment_detalle_compra" />
+    <fragment
+        android:id="@+id/hazteSocioFragment"
+        android:name="com.example.cineya.ui.view.fragment.HazteSocioFragment"
+        android:label="HazteSocioFragment" >
+        <action
+            android:id="@+id/action_hazteSocioFragment_to_perfilFragment"
+            app:destination="@id/perfilFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/perfilFragment"
+        android:name="com.example.cineya.ui.view.fragment.PerfilFragment"
+        android:label="PerfilFragment" />
 </navigation>
